@@ -22,7 +22,9 @@ SOURCES += main.cpp \
     widgets/model/treemodel.cpp \
     widgets/model/treeitem.cpp \
     screenshotitem.cpp \
-    core/viewprovider.cpp
+    core/viewprovider.cpp \
+    widgets/blindswidget.cpp \
+    widgets/pieimagedisplay.cpp
 
 RESOURCES += qml.qrc
 
@@ -41,6 +43,8 @@ HEADERS += \
     widgets/model/treemodel.h \
     widgets/model/treeitem.h \
     screenshotitem.h \
-    core/viewprovider.h
+    core/viewprovider.h \
+    widgets/blindswidget.h \
+    widgets/pieimagedisplay.h
 
 DISTFILES +=

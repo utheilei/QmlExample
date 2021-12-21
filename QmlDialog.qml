@@ -70,7 +70,7 @@ Popup {
                 Layout.alignment: Qt.AlignRight
                 Layout.rightMargin: 0
                 icon: {
-                    icon.source = "qrc:/close.svg"
+                    icon.source = "qrc:/icon/close.svg"
                 }
 
                 background: Rectangle {

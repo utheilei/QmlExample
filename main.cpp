@@ -12,6 +12,8 @@
 #include "widgets/textdocument.h"
 #include "widgets/utils.h"
 #include "widgets/model/treemodel.h"
+#include "widgets/blindswidget.h"
+#include "widgets/pieimagedisplay.h"
 #include "screenshotitem.h"
 #include "imageitem.h"
 
@@ -33,6 +35,8 @@ int main(int argc, char *argv[])
     qmlRegisterType<QuickTextDocument>("an.window", 1, 0, "QuickTextDocument");
     qmlRegisterType<ScreenShotItem>("an.window", 1, 0, "ScreenShotItem");
     qmlRegisterType<ImageItem>("an.window", 1, 0, "ImageItem");
+    qmlRegisterType<BlindsWidget>("an.window", 1, 0, "BlindsItem");
+    qmlRegisterType<PieImageWidget>("an.window", 1, 0, "PieImageItem");
 
     QmlHelper qmlHelper;
     engine.rootContext()->setContextProperty("qmlHelper", &qmlHelper);

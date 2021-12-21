@@ -6,13 +6,14 @@ import "./account"
 import "./unionid"
 import "./display"
 import "./defaultapp"
+import "./network"
 
 Rectangle {
     id: mainRectangle
     color: "transparent"
     radius: 20
 
-    property var listWidget: [accountWidget, unionIDWidget, displayWidget, defaultAppWidget]
+    property var listWidget: [accountWidget, unionIDWidget, displayWidget, defaultAppWidget, undefined, netWorkWidget]
 
     HLListView {
         id: listView
@@ -65,11 +66,19 @@ Rectangle {
             visible: false
         }
 
+        NetWork {
+            id: netWorkWidget
+            anchors.fill: parent
+            visible: false
+        }
+
         function setCurrentIndex(index) {
             if (index >= listWidget.length)
                 return
 
             for (var i=0; i<listWidget.length; i++) {
+                if (listWidget[i] === undefined)
+                    continue
                 if (i === index)
                     listWidget[i].visible = true
                 else

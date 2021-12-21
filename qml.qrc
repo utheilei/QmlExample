@@ -5,13 +5,8 @@
         <file>QmlLineEdit.qml</file>
         <file>QmlPassWordLineEdit.qml</file>
         <file>QmlDialog.qml</file>
-        <file>close.svg</file>
-        <file>dialog.svg</file>
-        <file>hide.svg</file>
-        <file>show.svg</file>
         <file>QmlMainWindow.qml</file>
         <file>QmlWaterProgress.qml</file>
-        <file>Blister.png</file>
         <file>QmlMaskImage.qml</file>
         <file>HLListView.qml</file>
         <file>HLComboBox.qml</file>
@@ -233,5 +228,18 @@
         <file>icon/download.svg</file>
         <file>controls/HLFloatingMessage.qml</file>
         <file>controlcenter/defaultapp/DefaultAppWidget.qml</file>
+        <file>controlcenter/network/NetWork.qml</file>
+        <file>icon/images/nba.jpeg</file>
+        <file>controls/HLScene3D.qml</file>
+        <file>controls/HLTextureCube.qml</file>
+        <file>icon/images/pixmap1.jpeg</file>
+        <file>icon/images/pixmap2.jpg</file>
+        <file>icon/images/pixmap3.jpg</file>
+        <file>icon/images/pixmap4.jpg</file>
+        <file>controls/HLRotationImage.qml</file>
+        <file>icon/close.svg</file>
+        <file>icon/Blister.png</file>
+        <file>icon/passwordhide.svg</file>
+        <file>icon/passwordshow.svg</file>
     </qresource>
 </RCC>

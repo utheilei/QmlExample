@@ -69,7 +69,7 @@ ToolBar {
             width: titleBar.height
             height: titleBar.height
             buttonPosition: 3
-            icon.source: "qrc:/close.svg"
+            icon.source: "qrc:/icon/close.svg"
             icon.width: 20
             icon.height: 20
             onClicked: Qt.quit()

@@ -56,7 +56,7 @@ ListView {
                 anchors.rightMargin: 10
                 anchors.verticalCenter: parent.verticalCenter
                 visible: false
-                icon.source: "qrc:/close.svg"
+                icon.source: "qrc:/icon/close.svg"
                 buttonRadius: 15
                 backgroundDefaultColor: sPalette.base
 

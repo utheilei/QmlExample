@@ -25,11 +25,11 @@ Item {
         anchors.leftMargin: 10
         anchors.verticalCenter: parent.verticalCenter
         backgroundDefaultColor: sPalette.highlight
-        icon.source: "qrc:/show.svg"
+        icon.source: "qrc:/icon/passwordshow.svg"
 
         onClicked: {
             qmlLineEdit.isPassword = !qmlLineEdit.isPassword
-            icon.source = qmlLineEdit.isPassword ? "qrc:/show.svg" : "qrc:/hide.svg"
+            icon.source = qmlLineEdit.isPassword ? "qrc:/icon/passwordshow.svg" : "qrc:/icon/passwordhide.svg"
         }
     }
 

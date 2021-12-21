@@ -19,7 +19,7 @@ Item {
         id: dialog
 
         Component.onCompleted: {
-            setIcon("qrc:/dialog.svg")
+            setIcon("qrc:/icon/dialog.svg")
             setTitle("MyDialog")
             setContentTitle("Title")
             setMessage("Hello world")

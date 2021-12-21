@@ -33,7 +33,7 @@ TextField {
         anchors.rightMargin: 10
         anchors.verticalCenter: parent.verticalCenter
         visible: !(field.text === "")
-        icon.source: "qrc:/close.svg"
+        icon.source: "qrc:/icon/close.svg"
         icon.width: closeButton.width/2
         icon.height: closeButton.height/2
         buttonRadius: width/2

@@ -94,7 +94,7 @@ Item {
 
         ImageParticle {
             groups: ["stage1"]
-            source: "qrc:/Blister.png"
+            source: "qrc:/icon/Blister.png"
             alpha: 0.65
             alphaVariation: 0.25
             colorVariation: 0.6
